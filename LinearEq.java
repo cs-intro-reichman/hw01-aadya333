@@ -5,9 +5,8 @@ public class LinearEq {
     Double b = Double.parseDouble(args[1]);
     Double c = Double.parseDouble(args[2]);
     double x = (c - b) / a;
-    System.out.println("The value of 'a' cannot be zero for a linear equation.");
-    System.out.println( + a + "*x + " + b + " = " + c + " x = " + x );
-    System.out.println(" x = " + x );
+    System.out.println( a + "*x + " + b + " = " + c );
+    System.out.println("x = " + x );
 
 
     }

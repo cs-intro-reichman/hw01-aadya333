@@ -16,7 +16,7 @@ public class GenThree {
         int min = Math.min(random1, random2);
         int min2 = Math.min(min, random3);
 
-        System.out.println("The minimal generated number was" + min2);
+        System.out.println("The minimal generated number was " + min2);
     
     }
 }
