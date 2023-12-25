@@ -19,7 +19,7 @@ public class Triangle {
              isTriangle = false;
          }
     
-    System.out.println( a + "," + b + "," + c + ": " + isTriangle);
+    System.out.println( a + ", " + b + ", " + c + ": " + isTriangle);
 
 
     }
