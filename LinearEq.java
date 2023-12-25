@@ -1,9 +1,14 @@
-/*
- * Solves linear equations of the form a⋅x + b = c.
- * The program gets a, b, and c as command-line arguments,
- * computes x, and prints the result.
- * Treats the three arguments as well as the computed value as double values
- */
 public class LinearEq {
-	// Put your code here
+    // Computes the roots of the equtaion a*x+b=c
+    public static void main(String[] args) {
+    Double a = Double.parseDouble(args[0]);
+    Double b = Double.parseDouble(args[1]);
+    Double c = Double.parseDouble(args[2]);
+    double x = (c - b) / a;
+    System.out.println("The value of 'a' cannot be zero for a linear equation.");
+    System.out.println( + a + "*x + " + b + " = " + c + " x = " + x );
+    System.out.println(" x = " + x );
+
+
+    }
 }
